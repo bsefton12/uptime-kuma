@@ -10,6 +10,7 @@ import ClickUp from "./ClickUp.vue";
 import Notifery from "./Notifery.vue";
 import ClickSendSMS from "./ClickSendSMS.vue";
 import CallMeBot from "./CallMeBot.vue";
+import Cellcast from "./Cellcast.vue";
 import SMSC from "./SMSC.vue";
 import DingDing from "./DingDing.vue";
 import Discord from "./Discord.vue";
@@ -124,6 +125,7 @@ const NotificationFormList = {
     ClickUp: ClickUp,
     clicksendsms: ClickSendSMS,
     CallMeBot: CallMeBot,
+    Cellcast: Cellcast,
     amootsms: AmootSMS,
     smsc: SMSC,
     smsir: SMSIR,

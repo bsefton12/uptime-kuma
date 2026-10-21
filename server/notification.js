@@ -11,6 +11,7 @@ const Bitrix24 = require("./notification-providers/bitrix24");
 const ClickUp = require("./notification-providers/clickup");
 const ClickSendSMS = require("./notification-providers/clicksendsms");
 const CallMeBot = require("./notification-providers/call-me-bot");
+const Cellcast = require("./notification-providers/cellcast");
 const SMSC = require("./notification-providers/smsc");
 const DingDing = require("./notification-providers/dingding");
 const Discord = require("./notification-providers/discord");
@@ -137,6 +138,7 @@ class Notification {
             new ClickUp(),
             new ClickSendSMS(),
             new CallMeBot(),
+            new Cellcast(),
             new SMSC(),
             new DingDing(),
             new Discord(),

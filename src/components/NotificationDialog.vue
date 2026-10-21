@@ -274,6 +274,7 @@ export default {
             let smsServices = {
                 clicksendsms: "ClickSend SMS",
                 Elks: "46elks",
+                Cellcast: "Cellcast",
                 Cellsynt: "Cellsynt",
                 gtxmessaging: "GtxMessaging",
                 octopush: "Octopush",
